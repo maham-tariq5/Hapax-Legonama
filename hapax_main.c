@@ -61,7 +61,7 @@ printData(char *filename, LLNode *wordListHeads[], int maxLen)
 	return 1;
 }
 
-/** TODO: print out only the hapax legomena in a word list */
+
 int
 printHapax(char *filename, LLNode *wordListHeads[],
 		int maxLen, int hapaxLength)
@@ -131,8 +131,6 @@ usage()
  * Program mainline
  */
 
-// define the maximum length of word we will look for, and by extension,
-// the number of entries that must be in the array of word lists
 #define	MAX_WORD_LEN	24
 
 int
@@ -140,18 +138,18 @@ main(int argc, char **argv)
 {
 	int i, shouldPrintData = 0, didProcessing = 0, printHapaxLength = -1;
 
-	/** TODO: allocate an array of list heads of the required size */
-     LLNode **wordListHeads = malloc((MAX_WORD_LEN + 1) * sizeof(LLNode *)); // dynamically allocating
+        // allocate an array of list heads of the required size */
+        LLNode **wordListHeads = malloc((MAX_WORD_LEN + 1) * sizeof(LLNode *)); // dynamically allocating
 
 	 for (int i = 0; i < MAX_WORD_LEN; i++)
-     {
+         {
 		 wordListHeads[i] = NULL;
 	 }
 
 	for (i = 1; i < argc; i++) {
 		if (argv[i][0] == '-') 
 		{
-			// TODO: Put your code to process the command line options here
+			
             if (argv[i][1] == 'h')
 			{
 				usage();
