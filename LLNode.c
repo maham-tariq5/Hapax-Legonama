@@ -5,6 +5,9 @@
  *			ISBN 0-201-61586-X
  */
 
+// a linked list library for easier use in program
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
