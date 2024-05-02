@@ -73,9 +73,7 @@ int tallyWordsInFile(char *filename, LLNode **wordLists, int maxLen)
 	return 1;
 }
 
-/**
- * TODO: Either update the tally in the list, or add it to the list
- */
+
 static int
 updateWordInTallyList(LLNode **wordListHeads, int maxLen, char *word)
 {
