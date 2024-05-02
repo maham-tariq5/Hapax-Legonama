@@ -1,5 +1,5 @@
 /**
- * Word extractor tool.  Do not modify this file
+ * Word extractor tool
  */
 
 #ifndef	__WORD_EXTRACTOR_HEADER__
