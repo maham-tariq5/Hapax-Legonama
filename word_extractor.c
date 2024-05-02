@@ -1,5 +1,5 @@
 /**
- * Word extractor tool.  Do not modify this file
+ * Word extractor tool
  */
 
 #include <stdio.h>
