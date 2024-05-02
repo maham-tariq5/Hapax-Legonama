@@ -1,30 +1,3 @@
-
-##
-## This file builds assignment 1
-##
-
-##
-## Some macros (makefile 'variables') are defined by default
-## by make(1).  The ones relevant to C compiling are:
-##  CC     : the name of the compiler (defaults to system compiler)
-##  CFLAGS : the flags (options) to pass to the compiler
-##
-## There are similar macros for other languages, for example C++ uses
-##  CXX      : the name of the c++ compiler (defaults to system compiler)
-##  CXXFLAGS : the flags (options) to pass to the c++ compiler
-
-
-## explicitly add debugger support to each file compiled
-CFLAGS = -g -Wall
-
-## uncomment/change this next line if you need to use a non-default compiler
-#CC = cc
-
-
-##
-## We can define variables for values we will use repeatedly below
-##
-
 ## define the two executables we want to build
 HEXE = hapax
 WEXE = printwords
