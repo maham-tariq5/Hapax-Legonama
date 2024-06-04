@@ -14,3 +14,14 @@ Terminal window type in the following
 ```
 make
 ``` 
+# Running the Program
+
+To extract unique words from a text file:
+```
+./hapax testfile.txt
+```
+To print words with specfic length:
+
+```
+./hapax -l 5 testfile.txt
+```
